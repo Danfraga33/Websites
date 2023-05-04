@@ -1,0 +1,45 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+$breakbpoint arguments
+- Phone
+- Tab-port
+- Tab-Land
+- Big Desktop
+
+ORDER: Base + typography > general layout + grid > page layout > componenets
+Font size does most job
+
+1em = 16px
+*/
+
+@mixin respond($breakbpoint) {
+  @if $breakbpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+
+    //600px
+  }
+  @if $breakbpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakbpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    }
+    // 1200px
+  }
+  @if $breakbpoint == big-desktop {
+    @media (max-width: 112.5em) {
+      @content;
+    }
+  }
+} // 1800px

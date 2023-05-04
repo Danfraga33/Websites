@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../../Natours"
+	},
+	{
+		"path": "../../../Nexter"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Trillo"
+  }
+}
