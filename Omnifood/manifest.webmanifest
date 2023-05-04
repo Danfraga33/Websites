@@ -1,0 +1,14 @@
+{
+  "icons": [
+    {
+      "src": "../07-Omnifood-Desktop/img/favicon_1_16x16 - Android - 192",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../07-Omnifood-Desktop/img/favicon_1_16x16 - Android - 512.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
